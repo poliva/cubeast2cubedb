@@ -1,0 +1,16 @@
+{
+  "name": "Cubeast2Cubedb",
+  "version": "1.0",
+  "manifest_version": 3,
+  "host_permissions": [
+    "https://app.cubeast.com/*"
+  ],
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
