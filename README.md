@@ -9,3 +9,7 @@ To use the extension you can follow these steps:
 - Select the folder containing the files in this repository.
 
 Once the extension is loaded, navigate to the [Cubeast website](https://app.cubeast.com/), choose a solve and click on the "solution" tab where you can see your moves, then click the extension's browser action button. This will open CubeDB on a new browser tab with the scramble and the solution of the Cubeast puzzle. You can then use the "Solve Critique" feature of CubeDB to analyse your solve.
+
+Here's an example solve that showcases this extension at the end of the video: 
+
+[![cubeast2cubedb showcase video](https://img.youtube.com/vi/fJW54pbSW-k/0.jpg)](https://www.youtube.com/watch?v=fJW54pbSW-k)
