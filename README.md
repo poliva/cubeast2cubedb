@@ -12,4 +12,4 @@ Once the extension is loaded, navigate to the [Cubeast website](https://app.cube
 
 Here's an example solve that showcases this extension at the end of the video: 
 
-[![cubeast2cubedb showcase video](https://img.youtube.com/vi/fJW54pbSW-k/0.jpg)](https://www.youtube.com/watch?v=fJW54pbSW-k)
+[![cubeast2cubedb showcase video](https://img.youtube.com/vi/fJW54pbSW-k/0.jpg)](https://www.youtube.com/watch?v=fJW54pbSW-k&t=91)
