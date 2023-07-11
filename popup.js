@@ -54,6 +54,11 @@ chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
               text=text.replace("E' L' U L","D U' F' U F");
               text=text.replace("E' B' U B","D U' L' U L");
               text=text.replace("E' R' U R","D U' B' U B");
+              // fix wide f move in V perm:
+              text=text.replace("B' R' D R2' D' R' D R' D' B","f' U' R U2 R' U' R U' R' f");
+              text=text.replace("R' F' D F2' D' F' D F' D' R","l' U' F U2 F' U' F U' F' l");
+              text=text.replace("F' L' D L2' D' L' D L' D' F","b' U' L U2 L' U' L U' L' b");
+              text=text.replace("L' B' D B2' D' B' D B' D' L","r' U' B U2 B' U' B U' B' r");
             }
             if (text != "") solution+=text+" //"+comment+"%0A";
           }
