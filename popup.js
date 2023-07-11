@@ -49,6 +49,11 @@ chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
               text=text.replace("F' L F' R2 F L' F' R2 F2","z F' U F' D2 F U' F' D2 F2 z'");
               text=text.replace("L' B L' F2 L B' L' F2 L2","x' L' U L' D2 L U' L' D2 L2 x");
               text=text.replace("B' R B' L2 B R' B' L2 B2","z' B' U B' D2 B U' B' D2 B2 z");
+              // fix U'+D rotation in Ga perm
+              text=text.replace("E' F' U F","D U' R' U R");
+              text=text.replace("E' L' U L","D U' F' U F");
+              text=text.replace("E' B' U B","D U' L' U L");
+              text=text.replace("E' R' U R","D U' B' U B");
             }
             if (text != "") solution+=text+" //"+comment+"%0A";
           }
